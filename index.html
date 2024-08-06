@@ -84,45 +84,26 @@
     </section>
 
     <!-- Sección de Registro -->
-    <section class="bg-light py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Regístrate para Actualizaciones</h2>
-            <div class="row justify-content-center">
-                <div class="col-md-8">
-                    <div class="form-section">
-                        <form>
-                            <div class="row">
-                                <div class="col-md-4 mb-3">
-                                    <label for="name" class="form-label">Nombre</label>
-                                    <input type="text" class="form-control" id="name" required>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <label for="email" class="form-label">Correo Electrónico</label>
-                                    <input type="email" class="form-control" id="email" required>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <label for="pet-type" class="form-label">Tipo de Mascota</label>
-                                    <select class="form-select" id="pet-type" required>
-                                        <option value="" disabled selected>Selecciona un tipo de mascota</option>
-                                        <option value="perro">Perro</option>
-                                        <option value="gato">Gato</option>
-                                        <option value="otro">Otro</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="text-center">
-                                <button type="submit" class="btn btn-primary">Suscribirse</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
+    <form class="form-container">
+        <div class="mb-4">
+            <label for="exampleInputEmail1" class="form-label">Dirección de Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Nunca compartiremos tu email con nadie más.</div>
         </div>
-    </section>
+        <div class="mb-4">
+            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-4 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Recuérdame</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
 
    <!-- Pie de Página -->
    <footer class="bg-dark text-white py-4">
-    <div class="container text-center">
+    <div class="footer-c">
         <div class="mb-3">
             <a href="https://www.facebook.com/?locale=es_LA" target="_blank" class="text-white me-3 footer-social-icons" aria-label="Facebook">
                 <i class="bi bi-facebook"></i>
