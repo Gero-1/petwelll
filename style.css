@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(224, 224, 159);
+}
+.hero-section {
+    background-image: url(https://www.culturarecreacionydeporte.gov.co/sites/default/files/styles/870_x_540/public/2023-06/dog-2606759_1920.jpg?itok=8EA21jEy); /* Cambia esta URL por una imagen real */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    margin: 0;
+}
+.hero-section h1 {
+    font-size: 3rem;
+}
+.hero-section p {
+    font-size: 1.25rem;
+}
+
+.feature-icon {
+    font-size: 2rem;
+}
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.hero-section h1 {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+.feature-icon {
+    font-size: 3rem;
+    color: #000000; /* Color para los iconos */
+    margin-bottom: 1rem;
+}
+.feature-card {
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s;
+    background-color: #f9f9f9; /* Fondo muy claro para las tarjetas */
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s;
+}
+.feature-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.btn-feature {
+    margin-top: 1rem;
+    background-color: #000000;
+    color: white;
+    border: none;
+    background-color: #696969; /* Color de fondo del botón */
+            border: none;
+            color: white;
+            border-radius: 0.25rem;
+            padding: 0.5rem 1rem;
+            margin-top: 1rem;
+    
+}
+.btn-feature:hover {
+    background-color: #0056b3;
+    color: white;
+    background-color: #0056b3;
+}
+.testimonial-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 3px solid #eddf91; 
+}
+.testimonial-card {
+    background-color: #f8f9fa; 
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.testimonial-card:hover {
+    transform: translateY(-10px);
+}
+.testimonial-card p {
+    font-style: italic;
+    color: #6c757d; 
+}
+.testimonial-card h5 {
+    font-weight: bold;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+.form-section {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.75rem 1.25rem;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+.form-label {
+    font-weight: bold;
+}
+footer a {
+    text-decoration: none;
+    font-weight: 500;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.footer-social-icons {
+    font-size: 1.98rem; 
+    
+}
+.mb-3{
+    
+}
